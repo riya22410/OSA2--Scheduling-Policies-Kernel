@@ -1,0 +1,18 @@
+all:	main	program1	program2	program3	counter1	counter2	counter3
+main:	main.c
+	gcc main.c -o main
+program1:	program1.c
+	gcc program1.c -o program1
+program2:	program2.c
+	gcc program2.c -o program2
+program3:	program3.c
+	gcc program3.c -o program3
+counter1:	counter1.c
+	gcc counter1.c -o counter1
+counter2:	counter2.c
+	gcc counter2.c -o counter2
+counter3:	counter3.c
+	gcc counter3.c -o counter3
+clean:
+	rm -f main program1 program2 program3 counter1 counter2 counter3
+	
